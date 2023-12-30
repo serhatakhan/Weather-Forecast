@@ -1,0 +1,109 @@
+<!DOCTYdivE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bs link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    
+    <!-- snow area -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      </div>
+
+    <div class="container">
+
+        <div class="weather-header">
+            <form action="" class="weather-search">
+                <input type="text" placeholder="search a city" class="weather-searchform">
+                <i class="bi bi-search"></i>
+            </form>
+            <div class="weather-units">
+                <span class="weather-units-celsius">&#176C</span>
+                <span class="weather-units-fahrenheit">&#176F</span>
+            </div>
+        </div>
+        <div class="weather-body">
+            <h1 class="weather-city">Istanbul, Türkiye</h1>
+            <div class="weather-datetime">
+                Friday, December 29, 2023 at 23:29 PM
+            </div>
+            <div class="weather-forecast">Clear</div>
+            <div class="weather-icon"></div>
+            <p class="weather-temperature"></p>
+            <div class="weather-minmax">
+                <p></p>
+                <p id="maxTemp"></p>
+            </div>
+        </div>
+        <div class="weather-info">
+            <div class="weather-card">
+                <i class="bi bi-thermometer-low"></i>
+                <div>
+                    <p>Real Feel</p>
+                    <p class="weather-realfeel">12°</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <i class="bi bi-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <p class="weather-humidity">12°</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <i class="bi bi-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="weather-wind">12°</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <i class="bi bi-speedometer2"></i>
+                <div>
+                    <p>Pressure</p>
+                    <p class="weather-pressure">12°</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
